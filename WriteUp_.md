@@ -164,7 +164,6 @@ show_images(masked_edges)
 ![](./test_images_output/select_region/image_1.png)
 * [Back to Legend](#Legend:)
 ---
----
 #### Hough Lines
 We now have bunch of pixels but no lines. It appears to be lines to us because our brain follow the pixels for us. With `cv2.HoughLinesP` method and by setting its parameters we make the line where the pixles build the lines. 
 
@@ -393,33 +392,32 @@ from moviepy.editor import VideoFileClip
 from IPython.display import HTML
 ``` 
 ---
----
 #### challenge video
+
 * [Back to Legend](#Legend:)
+
 * https://youtu.be/8BM_sDQITUc
----
 ---
 
 #### yellow lane line video
+
 * [Back to Legend](#Legend:)
+
 * https://youtu.be/IcP5wi0-mzk
 ---
----
 #### white lane line video
+
 * [Back to Legend](#Legend:)
+
 * https://youtu.be/FwXP94VMJM4
----
 ---
 
 ### Shortcomings
-
 After all test and tryings I find out that it is really hard to make the lane lines to stop wobbling.
 I understand also this algorithm as it is, is not sufficient to address the curvy raods or with poor lane line marking. The raod surface and the shadows and light intensity changing or even braking marks may also make some trouble as well. 
 
 * [Back to Legend](#Legend:)
 ----
 ### Possible improvements
-
 There must be a better way to mark the lane lines wobble free. There is also a good way of detecting the lane lines under all light and color conditions. With more advanced algorithm driving on curvy raods must be very possible.
-
 * [Back to Legend](#Legend:)
